@@ -58,7 +58,7 @@ def main(args):
 		  axs[ChromoIndex].set_title(UniqueChromosome[ChromoIndex])
 		  axs[ChromoIndex].plot(x, y)
 		  axs[ChromoIndex].axhline(y=5, color='red', linestyle='dotted')
-		  axs[GIndex].set_ylim(0,max(y)*1.1)
+		  axs[ChromoIndex].set_ylim(0,max(y)*1.1)
 
 
   plt.subplots_adjust(hspace = 0.8)
